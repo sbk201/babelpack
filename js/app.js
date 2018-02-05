@@ -19,7 +19,6 @@ function request(obj, successHandler, errorHandler) {
     };
     xhr.send(obj.body);
 }
-tg
 request({url:"employees.json"},
     function(data) {
         let employees = JSON.parse(data);
@@ -33,3 +32,5 @@ request({url:"employees.json"},
         console.log(error);
     }
 );
+alert('fine4');
+
